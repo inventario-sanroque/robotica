@@ -9,7 +9,7 @@
      versión nueva se vea enseguida; si no hay internet, se usa la copia.
    - Al instalar una compilación nueva se borran las cajas de las anteriores.
 */
-const CAJA = 'robotica-' + ("32");
+const CAJA = 'robotica-' + ("34");
 const SIEMPRE_DE_LA_RED = ['index.html', 'version.json', 'configuracion.js', 'manifest.webmanifest'];
 
 self.addEventListener('install', (e) => {
